@@ -1,0 +1,8 @@
+{
+  "name": "fastapi-server",
+  "image": "mcr.microsoft.com/devcontainers/universal:latest",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {}
+  },
+  "postCreateCommand": "uv pip install \"fastapi[standard]\""
+}
